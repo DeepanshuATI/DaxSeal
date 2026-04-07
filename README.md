@@ -2,29 +2,46 @@
 
 A secure document verification system using SHA-256 cryptographic hashing to verify the authenticity and integrity of PDF documents.
 
+## ⚡ Quick Commands
+
+```bash
+cd backend && npm install && npm run dev
+```
+
+```bash
+cd frontend && npm install && npm run dev
+```
+
+Then open: http://localhost:3000
+
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
 ```bash
-# Backend
 cd backend
 npm install
+```
 
-# Frontend (new terminal)
+```bash
 cd frontend
 npm install
 ```
 
 ### 2. Start the Application
+
+**Terminal 1 - Start Backend:**
 ```bash
-# Terminal 1 - Backend
 cd backend
 npm run dev
+```
+Backend will run on http://localhost:3001
 
-# Terminal 2 - Frontend
+**Terminal 2 - Start Frontend:**
+```bash
 cd frontend
 npm run dev
 ```
+Frontend will run on http://localhost:3000
 
 ### 3. Open Application
 Open http://localhost:3000 in your browser
@@ -32,6 +49,22 @@ Open http://localhost:3000 in your browser
 ### 4. Verify Setup (Optional)
 ```bash
 node verify-setup.js
+```
+
+## 📝 Available Commands
+
+### Backend Commands
+```bash
+npm run dev      # Start development server with auto-reload
+npm run build    # Compile TypeScript to JavaScript
+npm start        # Start production server (requires build first)
+```
+
+### Frontend Commands
+```bash
+npm run dev      # Start development server
+npm run build    # Build for production
+npm run preview  # Preview production build locally
 ```
 
 ## 📋 Features
@@ -222,6 +255,7 @@ cd frontend && npm install
 ### Backend
 ```bash
 cd backend
+npm install
 npm run build
 npm start
 ```
@@ -229,6 +263,7 @@ npm start
 ### Frontend
 ```bash
 cd frontend
+npm install
 npm run build
 npm run preview
 ```
