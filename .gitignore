@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.db
+.DS_Store
+*.log
+
+# Environment files are included for easy setup
+# In production, you should gitignore .env and use .env.example
+# .env
