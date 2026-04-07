@@ -6,7 +6,7 @@ interface ResultDisplayProps {
   type: 'notarize' | 'verify';
 }
 
-const ResultDisplay: React.FC<ResultDisplayProps> = ({ result, type }) => {
+const ResultDisplay: React.FC<ResultDisplayProps> = ({ result }) => {
   if (!result) return null;
 
   const getStatusIcon = (status: string) => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import VerificationZone from './components/VerificationZone';
 import ResultDisplay from './components/ResultDisplay';
 import { notarizeDocument, verifyDocument, NotarizeResponse, VerifyResponse } from './api/notaryApi';
